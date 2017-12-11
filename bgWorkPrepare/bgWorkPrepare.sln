@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "28181网关", "28181网关", "{4C172801-816B-4E5D-B074-BC449150FC07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "私有ID与国标ID互转", "私有ID与国标ID互转", "{09F11A66-EF60-407D-868F-D0584378069A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgPrivIdToGBId", "bgPrivIdToGBId\bgPrivIdToGBId.vcproj", "{AFFE2716-A93C-4623-9FF3-2747CB3A5E65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "依赖的开源项目", "依赖的开源项目", "{0B50F9BC-3689-49FC-A6FA-1B184060FC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFE2716-A93C-4623-9FF3-2747CB3A5E65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFFE2716-A93C-4623-9FF3-2747CB3A5E65}.Debug|Win32.Build.0 = Debug|Win32
+		{AFFE2716-A93C-4623-9FF3-2747CB3A5E65}.Release|Win32.ActiveCfg = Release|Win32
+		{AFFE2716-A93C-4623-9FF3-2747CB3A5E65}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09F11A66-EF60-407D-868F-D0584378069A} = {4C172801-816B-4E5D-B074-BC449150FC07}
+		{AFFE2716-A93C-4623-9FF3-2747CB3A5E65} = {09F11A66-EF60-407D-868F-D0584378069A}
+	EndGlobalSection
+EndGlobal
